@@ -1,0 +1,52 @@
+{
+    "test_metrics": {
+        "AUC_ROC": 0.9998,
+        "F1": 0.9998,
+        "Precision": 0.9998,
+        "Recall": 0.9998
+    },
+    "model_comparison": [
+        {
+            "Model": "KNN",
+            "AUC-ROC": 0.9488,
+            "F1": 0.9488,
+            "Precision": 0.9488,
+            "Recall": 0.9488
+        },
+        {
+            "Model": "DecisionTree",
+            "AUC-ROC": 1.0,
+            "F1": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0
+        },
+        {
+            "Model": "SVM",
+            "AUC-ROC": 0.9998,
+            "F1": 0.9998,
+            "Precision": 0.9998,
+            "Recall": 0.9998
+        },
+        {
+            "Model": "GaussianNB",
+            "AUC-ROC": 0.9502,
+            "F1": 0.9502,
+            "Precision": 0.9502,
+            "Recall": 0.9502
+        },
+        {
+            "Model": "RandomForest",
+            "AUC-ROC": 0.9998,
+            "F1": 0.9998,
+            "Precision": 0.9998,
+            "Recall": 0.9998
+        },
+        {
+            "Model": "GradientBoosting",
+            "AUC-ROC": 1.0,
+            "F1": 1.0,
+            "Precision": 1.0,
+            "Recall": 1.0
+        }
+    ]
+}
